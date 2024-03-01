@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    padding: 16px 0;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+}
+
+header h1 {
+    font-size: 51px;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 25px;
+}
+
+header nav li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: "Noto Serif", serif;
+}
+
+header,
+section,
+input,
+textarea,
+button,
+footer {
+    font-family: "DM Sans", sans-serif;
+}
+
+.container{
+    max-width: 1333px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+section img {
+    max-width: 500px;
+    max-height: 500px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-left: 24px;
+}
+
+#Contato .container {
+    display: block;
+}
+
+.metodo-contato {
+    padding-top: 30px;
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(255, 100, 100);
+}
+
+input:focus, textarea:focus {
+    outline-color: red;
+}
+
+.social-links img {
+    height: 100px;
+} 
+
+.social-links li {
+    display: inline;
+    list-style-type: none;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color:rgb(245, 245, 245);
+    padding: 16px 0;
+}
+
+#Karatedo {
+    height: 100px;
+}
+
+h3{
+    padding-bottom: 5px;
+}
